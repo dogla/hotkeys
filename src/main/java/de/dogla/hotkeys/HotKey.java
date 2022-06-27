@@ -44,7 +44,7 @@ public class HotKey {
 	 * Constructor.
 	 * 
 	 * @param id the id of this hit key
-	 * @param modifiers the modifiers for this shortcut (WinAPI.MOD_ALT, WinAPI.MOD_SHIFT, WinAPI.MOD_CONTROL, WinAPI.MOD_WIN )
+	 * @param modifiers the modifiers for this shortcut ({@link #MOD_ALT}, {@link #MOD_SHIFT}, {@link #MOD_CONTROL}, {@link #MOD_WIN})
 	 * @param keyCode the key code for this shortcut
 	 */
 	public HotKey(String id, int modifiers, int keyCode) {
@@ -55,7 +55,7 @@ public class HotKey {
 	 * Constructor.
 	 * 
 	 * @param id the id of this hotkey
-	 * @param modifiers the modifiers for this shortcut (WinAPI.MOD_ALT, WinAPI.MOD_SHIFT, WinAPI.MOD_CONTROL, WinAPI.MOD_WIN )
+	 * @param modifiers the modifiers for this shortcut ({@link #MOD_ALT}, {@link #MOD_SHIFT}, {@link #MOD_CONTROL}, {@link #MOD_WIN})
 	 * @param keyCode the key code for this shortcut
 	 * @param data the data that can be associated with this hot key
 	 */
