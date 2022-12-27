@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.dogla</groupId>
 	<artifactId>hotkeys</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	
 	<name>hotkeys</name>
 	<description>Library for Windows to register global hot keys that can be triggered even when the associated application is not focused or has no application window at all.</description>
