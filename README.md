@@ -1,4 +1,8 @@
+
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.dogla/filesystem-watcher.svg?label=Maven%20Central)](https://search.maven.org/artifact/io.github.dogla/hotkeys)
+
 # hotkeys
+
 This Java library for Windows allows the user to register global hot keys that can be triggered even when the associated application is not focused or has no application window at all.
 
 # Dependencies
@@ -9,28 +13,14 @@ This Java library for Windows allows the user to register global hot keys that c
 
 # Setup
 
-Until now this library is not added to maven central. To use this library you have to build it on your own and install it to your local maven repo.
-So a simple clone and build is all you need.
+To use this library you can use the corresponding maven dependency:
 
-```
-git clone https://github.com/dogla/hotkeys.git
-cd hotkeys
-mvnw clean install -DskipTests
-```
-
-After that you can use the library via a maven dependency:
 ```xml
     <dependency>
-		<groupId>de.dogla</groupId>
+		<groupId>io.github.dogla</groupId>
 		<artifactId>hotkeys</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
     <dependency>
-```
-
-If the snapshot version bothers you, you can also remove the snapshot and reinstall it again.
-```
-mvnw versions:set -DnewVersion=1.0.0
-mvnw clean install -DskipTests
 ```
 
 # Usage

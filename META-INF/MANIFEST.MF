@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: HotKeys Plugin
-Bundle-SymbolicName: de.dogla.hotkeys
+Bundle-SymbolicName: io.github.dogla.hotkeys
 Bundle-Version: 1.0.0.qualifier
-Export-Package: de.dogla.hotkeys
+Export-Package: io.github.dogla.hotkeys

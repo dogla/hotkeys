@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2009-2021 Dominik Glaser
+ * Copyright (C) 2009-2022 Dominik Glaser
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,33 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.dogla.hotkeys;
+package io.github.dogla.hotkeys;
 
 /**
- * The event bean for a hot key event.
+ * The callback interface for handling the triggered hot key.
  *
  * @author Dominik Glaser
  * @since 1.0
  */
-public class HotKeyEvent {
-
-    private final HotKey hotKey;
-
+public interface HotKeyHandler {
+	
 	/**
-	 * Constructor.
-	 *
-	 * @param hotKey the corresponding hot key
+	 * This method will be called if the hot key was triggered.
+	 * 
+	 * @param event the corresponding event
 	 */
-	public HotKeyEvent(HotKey hotKey) {
-		super();
-		this.hotKey = hotKey;
-	}
-
-	/**
-	 * @return the hot key of the raised event
-	 */
-	public HotKey getHotKey() {
-		return hotKey;
-	}
+	public void run(HotKeyEvent event);
 
 }
